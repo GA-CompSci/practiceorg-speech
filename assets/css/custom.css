@@ -1,0 +1,49 @@
+
+/******* COLORS *******
+053f73 - dark blue
+-6883ba - lighter blue
+f9f9f9- basically white
+a7a9ac- light grey
+ffd700 -  gold */
+
+/*** FONTS***
+ Body Text - Bentham
+ CODE: CSS
+ 
+ .bentham-regular {
+  font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+Headings/titles - quintessential
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+***/
+body,p,div{
+   font-family: "Bentham", serif;
+   font-weight: 400;
+  font-style: normal;
+}
+
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+
+h1, h2, h3, h4, h5, h6{
+     font-family: "Quintessential", serif;
+}
+
+/*** FIX - button color ***/
+.theme-color-very-peri .text-color-theme {
+    color: 053f73;
+}
+
+
+
