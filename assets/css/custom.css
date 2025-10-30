@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Quintessential", serif;
 }
 
+.theme-color-very-peri .text-color-theme {
+    color: #ffd700;
+}
 
-
-
+/**** NAV COLOR ****/
+body {
+    color: 053f73;
+}
+   
