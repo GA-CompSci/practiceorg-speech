@@ -1,9 +1,10 @@
 /******* COLORS *******
-053f73 - dark blue
--6883ba - lighter blue
-f9f9f9- basically white
-a7a9ac- light grey
-ffd700 -  gold 
+#053f73 - dark blue
+#6883ba - lighter blue
+#f9f9f9- basically white
+#a7a9ac- light grey
+#A9A9A9 - dark grey
+#ffd700 -  gold 
 ***/
 
 /******** FONTS ********/
@@ -24,7 +25,25 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /**** NAV COLOR ****/
-body {
-    color: 053f73;
+.header.header-color-dark {
+    background: #053f73;
 }
-   
+.header[class*='header-color']:not(.transparent-dark) .header-logo a {
+    color: #A9A9A9;
+}
+
+/*** FOOTER****/
+
+
+.bg-dark-content h1, .bg-black h1, [class*='bg-dark'] h1, [class*='bg-gradient-'] h1, [class*='bg-color-'] h1, .bg-dark-content h2, .bg-black h2, [class*='bg-dark'] h2, [class*='bg-gradient-'] h2, [class*='bg-color-'] h2, .bg-dark-content h3, .bg-black h3, [class*='bg-dark'] h3, [class*='bg-gradient-'] h3, [class*='bg-color-'] h3, .bg-dark-content h4, .bg-black h4, [class*='bg-dark'] h4, [class*='bg-gradient-'] h4, [class*='bg-color-'] h4, .bg-dark-content h5, .bg-black h5, [class*='bg-dark'] h5, [class*='bg-gradient-'] h5, [class*='bg-color-'] h5, .bg-dark-content h6, .bg-black h6, [class*='bg-dark'] h6, [class*='bg-gradient-'] h6, [class*='bg-color-'] h6 {
+    color:#A9A9A9;
+}
+
+.button-white-2 {
+    background: #6883ba;
+    border: 0;
+    color: #ffd700;
+}
+.bg-dark-06 {
+    background:#053f73 ;
+}
