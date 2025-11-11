@@ -24,6 +24,14 @@ h1, h2, h3, h4, h5, h6{
     color: #ffd700;
 }
 
+
+h2{
+    color: #ffd700;
+}
+
+
+
+
 /**** NAV COLOR ****/
 .header.header-color-dark {
     background: #053f73;
@@ -47,3 +55,21 @@ h1, h2, h3, h4, h5, h6{
 .bg-dark-06 {
     background:#053f73 ;
 }
+
+/*** BACKGROUND COLOR***/
+body {
+  background-color: #053f73 !important;
+}
+
+
+/*** TEXT COLOR***/
+
+
+
+
+
+
+
+
+
+
